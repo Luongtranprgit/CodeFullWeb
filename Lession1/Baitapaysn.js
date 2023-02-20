@@ -22,7 +22,7 @@ const showTt = async () => {
     const userInfo = await getTt(name);
     nameND.innerHTML = userInfo.login;
     avatar.src = userInfo.avatar_url;
-    companyGit.innerHTML = userInfo.company;
+    tenCt.innerHTML = userInfo.company;
     email.innerHTML = userInfo.email;
     soNguoiFollow.innerHTML = userInfo.followers;
   } catch (error) {
