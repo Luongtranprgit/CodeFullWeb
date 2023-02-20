@@ -20,8 +20,9 @@ const showTt = async () => {
   const name = input.value;
   try {
     const userInfo = await getTt(name);
+    console.log(userInfo);
     nameND.innerHTML = userInfo.login;
-    avatar.src = userInfo.avatar_url;
+    avatar.innerHTML = userInfo.avatar_url;
     tenCt.innerHTML = userInfo.company;
     email.innerHTML = userInfo.email;
     soNguoiFollow.innerHTML = userInfo.followers;
