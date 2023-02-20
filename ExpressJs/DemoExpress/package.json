@@ -1,0 +1,21 @@
+{
+  "name": "demoexpress",
+  "version": "1.0.0",
+  "description": "This is demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "author": "Luong Tran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "i": "^0.3.7",
+    "jsonexport": "^3.2.0",
+    "npm": "^9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
