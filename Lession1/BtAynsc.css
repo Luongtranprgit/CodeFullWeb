@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+input#inp1 {
+  margin: 10%;
+  width: 100%;
+  background-color: aquamarine;
+  border-radius: 20px;
+  color: red;
+}
+
+button#but_1 {
+  border-radius: 20px;
+  margin-left: 47px;
+}
