@@ -43,16 +43,4 @@ teacherRouter.get("/:id", (req, res) => {
   }
 });
 
-teacherRouter.get("/:id/class/:class", (req, res) => {
-  const idPrams = req.params.id;
-  const classId = req.params.classId;
-  const findTeacher = teacher.filter(
-    (teacher) => teacher.id === parseInt(idPrams)
-  );
-  if (findTeacher) {
-    res.json(findTeacher);
-  } else {
-    res.send("Không tìm thấy giáo viên này");
-  }
-});
 module.exports = teacherRouter;
